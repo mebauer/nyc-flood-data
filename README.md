@@ -1,5 +1,10 @@
 # Flood Data for NYC
 
+![table-1](tables/total-downloads.png)
+![table-2](tables/downloads-per-day.png)
+![table-3](tables/total-views.png)
+![table-4](tables/views-per-day.png)
+
 Flood Hazard Layers: 
 
 - Hurricane Evacuation Zones: https://data.cityofnewyork.us/Public-Safety/Hurricane-Evacuation-Zones/uihr-hn7s
