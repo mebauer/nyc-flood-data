@@ -1,10 +1,5 @@
 # Flood Data for New York City
 
-![table-1](tables/total-downloads.png)
-![table-2](tables/downloads-per-day.png)
-![table-3](tables/total-views.png)
-![table-4](tables/views-per-day.png)
-
 |    | name                                                              | id        | created_date   |   download_count |   download_per_day |
 |---:|:------------------------------------------------------------------|:----------|:---------------|-----------------:|-------------------:|
 |  1 | Sea Level Rise Maps (2020s 100-year Floodplain)                   | ezfn-5dsb | 2013-07-23     |           211663 |              55.44 |
@@ -17,6 +12,7 @@
 |  8 | Sea Level Rise Maps (2050s 500-year Floodplain)                   | qwca-zqw3 | 2013-07-23     |             2414 |               0.63 |
 |  9 | NYC Stormwater Flood Map - Moderate Flood with Current Sea Levels | 7r5q-vr7p | 2022-08-17     |             2089 |               4.13 |
 | 10 | Projected Sea Level Rise                                          | 6an6-9htp | 2017-07-12     |             1898 |               0.8  |
+Table xx: Top 10 flood datasets sorted by total downloads on NYC Open Data.
 
 |    | name                                                               | id        | created_date   |   download_count |   download_per_day |
 |---:|:-------------------------------------------------------------------|:----------|:---------------|-----------------:|-------------------:|
@@ -30,6 +26,7 @@
 |  8 | NYC Stormwater Flood Map - Moderate Flood with 2050 Sea Level Rise | 5rzh-cyqd | 2021-06-07     |             1847 |               1.96 |
 |  9 | 1 foot Digital Elevation Model (DEM)                               | dpc8-z3jc | 2013-08-09     |             6524 |               1.72 |
 | 10 | DEP's Citywide Parcel-Based Impervious Area GIS Study              | uex9-rfq8 | 2020-07-13     |             1497 |               1.18 |
+Table xx: Top 10 flood datasets sorted by total downloads per day on NYC Open Data.
 
 |    | name                                                              | id        | created_date   |   page_views_per_day |   page_views_last_week |   page_views_last_month |   page_views_total |
 |---:|:------------------------------------------------------------------|:----------|:---------------|---------------------:|-----------------------:|------------------------:|-------------------:|
@@ -43,6 +40,7 @@
 |  8 | NYC Stormwater Flood Map - Extreme Flood with 2080 Sea Level Rise | w8eg-8ha6 | 2021-06-07     |                 7.57 |                     45 |                     171 |               7127 |
 |  9 | DEP's Citywide Parcel-Based Impervious Area GIS Study             | uex9-rfq8 | 2020-07-13     |                 5.34 |                     16 |                     133 |               6783 |
 | 10 | NYC Stormwater Flood Map - Moderate Flood with Current Sea Levels | 7r5q-vr7p | 2022-08-17     |                 8.65 |                     25 |                     213 |               4375 |
+Table xx: Top 10 flood datasets sorted by total page views on NYC Open Data.
 
 |    | name                                                               | id        | created_date   |   page_views_per_day |   page_views_last_week |   page_views_last_month |   page_views_total |
 |---:|:-------------------------------------------------------------------|:----------|:---------------|---------------------:|-----------------------:|------------------------:|-------------------:|
@@ -56,6 +54,7 @@
 |  8 | DEP Green Infrastructure                                           | spjh-pz7h | 2017-08-31     |                 6.41 |                     84 |                     359 |              14854 |
 |  9 | DEP's Citywide Parcel-Based Impervious Area GIS Study              | uex9-rfq8 | 2020-07-13     |                 5.34 |                     16 |                     133 |               6783 |
 | 10 | NYC Stormwater Flood Map - Moderate Flood with 2050 Sea Level Rise | 5rzh-cyqd | 2021-06-07     |                 4.26 |                     32 |                     135 |               4013 |
+Table xx: Top 10 flood datasets sorted by total page views per day on NYC Open Data.
 
 ## Flood Datasets
 ### Flood Hazard Layers
