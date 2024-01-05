@@ -5,18 +5,57 @@
 ![table-3](tables/total-views.png)
 ![table-4](tables/views-per-day.png)
 
-|    | name                                                              | id        | created_date        |   download_count |   download_per_day |
-|---:|:------------------------------------------------------------------|:----------|:--------------------|-----------------:|-------------------:|
-|  1 | Sea Level Rise Maps (2020s 100-year Floodplain)                   | ezfn-5dsb | 2013-07-23 00:00:00 |           211663 |              55.44 |
-|  2 | Hurricane Evacuation Zones                                        | uihr-hn7s | 2015-07-14 00:00:00 |            41530 |              13.41 |
-|  3 | DEP Green Infrastructure                                          | spjh-pz7h | 2017-08-31 00:00:00 |            27796 |              11.99 |
-|  4 | Sandy Inundation Zone                                             | uyj8-7rv5 | 2015-11-09 00:00:00 |            20289 |               6.81 |
-|  5 | 1 foot Digital Elevation Model (DEM)                              | dpc8-z3jc | 2013-08-09 00:00:00 |             6524 |               1.72 |
-|  6 | NYC Stormwater Flood Map - Extreme Flood with 2080 Sea Level Rise | w8eg-8ha6 | 2021-06-07 00:00:00 |             3002 |               3.19 |
-|  7 | Sea Level Rise Maps (2050s 100-year Floodplain)                   | hbw8-2bah | 2013-07-23 00:00:00 |             2541 |               0.67 |
-|  8 | Sea Level Rise Maps (2050s 500-year Floodplain)                   | qwca-zqw3 | 2013-07-23 00:00:00 |             2414 |               0.63 |
-|  9 | NYC Stormwater Flood Map - Moderate Flood with Current Sea Levels | 7r5q-vr7p | 2022-08-17 00:00:00 |             2089 |               4.13 |
-| 10 | Projected Sea Level Rise                                          | 6an6-9htp | 2017-07-12 00:00:00 |             1898 |               0.8  |
+|    | name                                                              | id        | created_date   |   download_count |   download_per_day |
+|---:|:------------------------------------------------------------------|:----------|:---------------|-----------------:|-------------------:|
+|  1 | Sea Level Rise Maps (2020s 100-year Floodplain)                   | ezfn-5dsb | 2013-07-23     |           211663 |              55.44 |
+|  2 | Hurricane Evacuation Zones                                        | uihr-hn7s | 2015-07-14     |            41530 |              13.41 |
+|  3 | DEP Green Infrastructure                                          | spjh-pz7h | 2017-08-31     |            27796 |              11.99 |
+|  4 | Sandy Inundation Zone                                             | uyj8-7rv5 | 2015-11-09     |            20289 |               6.81 |
+|  5 | 1 foot Digital Elevation Model (DEM)                              | dpc8-z3jc | 2013-08-09     |             6524 |               1.72 |
+|  6 | NYC Stormwater Flood Map - Extreme Flood with 2080 Sea Level Rise | w8eg-8ha6 | 2021-06-07     |             3002 |               3.19 |
+|  7 | Sea Level Rise Maps (2050s 100-year Floodplain)                   | hbw8-2bah | 2013-07-23     |             2541 |               0.67 |
+|  8 | Sea Level Rise Maps (2050s 500-year Floodplain)                   | qwca-zqw3 | 2013-07-23     |             2414 |               0.63 |
+|  9 | NYC Stormwater Flood Map - Moderate Flood with Current Sea Levels | 7r5q-vr7p | 2022-08-17     |             2089 |               4.13 |
+| 10 | Projected Sea Level Rise                                          | 6an6-9htp | 2017-07-12     |             1898 |               0.8  |
+
+|    | name                                                               | id        | created_date   |   download_count |   download_per_day |
+|---:|:-------------------------------------------------------------------|:----------|:---------------|-----------------:|-------------------:|
+|  1 | Sea Level Rise Maps (2020s 100-year Floodplain)                    | ezfn-5dsb | 2013-07-23     |           211663 |              55.44 |
+|  2 | Hurricane Evacuation Zones                                         | uihr-hn7s | 2015-07-14     |            41530 |              13.41 |
+|  3 | DEP Green Infrastructure                                           | spjh-pz7h | 2017-08-31     |            27796 |              11.99 |
+|  4 | Sandy Inundation Zone                                              | uyj8-7rv5 | 2015-11-09     |            20289 |               6.81 |
+|  5 | NYC Stormwater Flood Map - Moderate Flood with Current Sea Levels  | 7r5q-vr7p | 2022-08-17     |             2089 |               4.13 |
+|  6 | NYC Stormwater Flood Map - Extreme Flood with 2080 Sea Level Rise  | w8eg-8ha6 | 2021-06-07     |             3002 |               3.19 |
+|  7 | Building Elevation and Subgrade (BES)                              | bsin-59hv | 2023-09-12     |              256 |               2.23 |
+|  8 | NYC Stormwater Flood Map - Moderate Flood with 2050 Sea Level Rise | 5rzh-cyqd | 2021-06-07     |             1847 |               1.96 |
+|  9 | 1 foot Digital Elevation Model (DEM)                               | dpc8-z3jc | 2013-08-09     |             6524 |               1.72 |
+| 10 | DEP's Citywide Parcel-Based Impervious Area GIS Study              | uex9-rfq8 | 2020-07-13     |             1497 |               1.18 |
+
+|    | name                                                              | id        | created_date   |   page_views_per_day |   page_views_last_week |   page_views_last_month |   page_views_total |
+|---:|:------------------------------------------------------------------|:----------|:---------------|---------------------:|-----------------------:|------------------------:|-------------------:|
+|  1 | Sandy Inundation Zone                                             | uyj8-7rv5 | 2015-11-09     |                17.98 |                     70 |                     486 |              53564 |
+|  2 | Sea Level Rise Maps (2050s 500-year Floodplain)                   | qwca-zqw3 | 2013-07-23     |                11.17 |                    174 |                     788 |              42640 |
+|  3 | 1 foot Digital Elevation Model (DEM)                              | dpc8-z3jc | 2013-08-09     |                 8.48 |                     76 |                     331 |              32217 |
+|  4 | Sea Level Rise Maps (2020s 100-year Floodplain)                   | ezfn-5dsb | 2013-07-23     |                 6.82 |                    124 |                     425 |              26052 |
+|  5 | DEP Green Infrastructure                                          | spjh-pz7h | 2017-08-31     |                 6.41 |                     84 |                     359 |              14854 |
+|  6 | Hurricane Evacuation Zones                                        | uihr-hn7s | 2015-07-14     |                 3.32 |                     35 |                     103 |              10286 |
+|  7 | Sea Level Rise Maps (2050s 100-year Floodplain)                   | hbw8-2bah | 2013-07-23     |                 2.68 |                     91 |                     200 |              10223 |
+|  8 | NYC Stormwater Flood Map - Extreme Flood with 2080 Sea Level Rise | w8eg-8ha6 | 2021-06-07     |                 7.57 |                     45 |                     171 |               7127 |
+|  9 | DEP's Citywide Parcel-Based Impervious Area GIS Study             | uex9-rfq8 | 2020-07-13     |                 5.34 |                     16 |                     133 |               6783 |
+| 10 | NYC Stormwater Flood Map - Moderate Flood with Current Sea Levels | 7r5q-vr7p | 2022-08-17     |                 8.65 |                     25 |                     213 |               4375 |
+
+|    | name                                                               | id        | created_date   |   page_views_per_day |   page_views_last_week |   page_views_last_month |   page_views_total |
+|---:|:-------------------------------------------------------------------|:----------|:---------------|---------------------:|-----------------------:|------------------------:|-------------------:|
+|  1 | Sandy Inundation Zone                                              | uyj8-7rv5 | 2015-11-09     |                17.98 |                     70 |                     486 |              53564 |
+|  2 | Sea Level Rise Maps (2050s 500-year Floodplain)                    | qwca-zqw3 | 2013-07-23     |                11.17 |                    174 |                     788 |              42640 |
+|  3 | Building Elevation and Subgrade (BES)                              | bsin-59hv | 2023-09-12     |                 9.31 |                     17 |                      81 |               1071 |
+|  4 | NYC Stormwater Flood Map - Moderate Flood with Current Sea Levels  | 7r5q-vr7p | 2022-08-17     |                 8.65 |                     25 |                     213 |               4375 |
+|  5 | 1 foot Digital Elevation Model (DEM)                               | dpc8-z3jc | 2013-08-09     |                 8.48 |                     76 |                     331 |              32217 |
+|  6 | NYC Stormwater Flood Map - Extreme Flood with 2080 Sea Level Rise  | w8eg-8ha6 | 2021-06-07     |                 7.57 |                     45 |                     171 |               7127 |
+|  7 | Sea Level Rise Maps (2020s 100-year Floodplain)                    | ezfn-5dsb | 2013-07-23     |                 6.82 |                    124 |                     425 |              26052 |
+|  8 | DEP Green Infrastructure                                           | spjh-pz7h | 2017-08-31     |                 6.41 |                     84 |                     359 |              14854 |
+|  9 | DEP's Citywide Parcel-Based Impervious Area GIS Study              | uex9-rfq8 | 2020-07-13     |                 5.34 |                     16 |                     133 |               6783 |
+| 10 | NYC Stormwater Flood Map - Moderate Flood with 2050 Sea Level Rise | 5rzh-cyqd | 2021-06-07     |                 4.26 |                     32 |                     135 |               4013 |
 
 ## Flood Datasets
 ### Flood Hazard Layers
