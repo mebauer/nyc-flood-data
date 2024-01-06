@@ -15,6 +15,7 @@
 
 Table xx: Top 10 flood datasets sorted by total downloads on NYC Open Data.  
   
+\
 
 |    | name                                                               | id        | created_date   |   download_count |   download_per_day |
 |---:|:-------------------------------------------------------------------|:----------|:---------------|-----------------:|-------------------:|
@@ -31,6 +32,7 @@ Table xx: Top 10 flood datasets sorted by total downloads on NYC Open Data.
 
 Table xx: Top 10 flood datasets sorted by total downloads per day on NYC Open Data.  
   
+\
 
 |    | name                                                              | id        | created_date   |   page_views_per_day |   page_views_last_week |   page_views_last_month |   page_views_total |
 |---:|:------------------------------------------------------------------|:----------|:---------------|---------------------:|-----------------------:|------------------------:|-------------------:|
@@ -47,6 +49,8 @@ Table xx: Top 10 flood datasets sorted by total downloads per day on NYC Open Da
 
 Table xx: Top 10 flood datasets sorted by total page views on NYC Open Data.  
   
+\
+
 |    | name                                                               | id        | created_date   |   page_views_per_day |   page_views_last_week |   page_views_last_month |   page_views_total |
 |---:|:-------------------------------------------------------------------|:----------|:---------------|---------------------:|-----------------------:|------------------------:|-------------------:|
 |  1 | Sandy Inundation Zone                                              | uyj8-7rv5 | 2015-11-09     |                17.98 |                     70 |                     486 |              53564 |
@@ -62,6 +66,7 @@ Table xx: Top 10 flood datasets sorted by total page views on NYC Open Data.
 
 Table xx: Top 10 flood datasets sorted by total page views per day on NYC Open Data.  
   
+\
 
 ## Flood Datasets
 ### Flood Hazard Layers
