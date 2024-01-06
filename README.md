@@ -14,8 +14,7 @@
 | 10 | Projected Sea Level Rise                                          | 6an6-9htp | 2017-07-12     |             1898 |               0.8  |
 
 Table xx: Top 10 flood datasets sorted by total downloads on NYC Open Data.  
-*\*
-
+<br />
 
 |    | name                                                               | id        | created_date   |   download_count |   download_per_day |
 |---:|:-------------------------------------------------------------------|:----------|:---------------|-----------------:|-------------------:|
