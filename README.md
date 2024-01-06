@@ -1,5 +1,16 @@
 # Flood Data for New York City
 
+## Table of Contents
+* [Introduction](#Introduction)
+* [Dataset Statistics](#Dataset-Statistics)
+* [Flood Datasets](#Flood-Datasets)
+    * [Flood Hazard Layers](#Flood-Hazard-Layers)
+    * [Additional Data Related to Flood Risk](#Additional-Data-Related-to-Flood-Risk)
+* [Say Hello!](#Say-Hello)
+
+## Introduction
+
+## Dataset Statistics
 |    | name                                                              | id        | created_date   |   download_count |   download_per_day |
 |---:|:------------------------------------------------------------------|:----------|:---------------|-----------------:|-------------------:|
 |  1 | Sea Level Rise Maps (2020s 100-year Floodplain)                   | ezfn-5dsb | 2013-07-23     |           211663 |              55.44 |
