@@ -3,7 +3,7 @@ Author: Mark Bauer
 
 ### Table of Contents
 * [Introduction](#Introduction)
-* [Dataset Statistics](#Dataset-Statistics)
+* [Flood Dataset Statistics](#Flood-Dataset-Statistics)
 * [Flood Datasets](#Flood-Datasets)
     * [Flood Hazard Layers](#Flood-Hazard-Layers)
     * [Additional Data Related to Flood Risk](#Additional-Data-Related-to-Flood-Risk)
@@ -17,7 +17,7 @@ Flood datasets are separated into two categories:
 - Flood Hazard Layers - usually in the form of shapefiles (e.g. stormwater flood maps, Sandy inundation zone, hurricane evacuation zones, etc). 
 - Additional Data Related to Flood Risk - as the name suggests, are somewhat related to flooding and/or flood risk analysis (311 street flooding complaints, green infrastructure, etc.).
 
-### Dataset Statistics
+### Flood Dataset Statistics
 |    | name                                                              | id        | created_date   |   download_count |   download_per_day |
 |---:|:------------------------------------------------------------------|:----------|:---------------|-----------------:|-------------------:|
 |  1 | Sea Level Rise Maps (2020s 100-year Floodplain)                   | ezfn-5dsb | 2013-07-23     |           211663 |              55.44 |
