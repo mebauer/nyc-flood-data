@@ -1,4 +1,4 @@
-## Flood Data for New York City
+## A Collection of Flood Datasets on NYC Open Data
 Author: Mark Bauer
 
 ### Table of Contents
