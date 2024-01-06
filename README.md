@@ -14,8 +14,8 @@ Author: Mark Bauer
 A collection of free and publicly available flood data for New York City. All datasets can be retrieved from NYC Open Data. Additionally, this project examines and ranks flood datasets with the most downloads and page views. You can find this work in the [analysis.ipynb](https://github.com/mebauer/nyc-flood-data/blob/main/analysis.ipynb) notebook, which focuses on open source and reproducible workflows.
 
 Flood datasets are separated into two categories:
-- Flood Hazard Layers - usually in the form of shapefiles (e.g. stormwater flood maps, hurricane sandy boundary, hurricane zones, etc). 
-- Additional Data Related to Flood Risk - as the name suggests, are somewhat related to flooding and/or flood risk analysis (311 Street Flooding Complaints, Green Infrastructure, etc.).
+- Flood Hazard Layers - usually in the form of shapefiles (e.g. stormwater flood maps, Sandy inundation zone, hurricane evacuation zones, etc). 
+- Additional Data Related to Flood Risk - as the name suggests, are somewhat related to flooding and/or flood risk analysis (311 street flooding complaints, green infrastructure, etc.).
 
 ### Dataset Statistics
 |    | name                                                              | id        | created_date   |   download_count |   download_per_day |
