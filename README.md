@@ -15,7 +15,7 @@ A collection of free and publicly available flood data for New York City. All da
 
 Flood datasets are separated into two categories:
 - Flood Hazard Layers - usually in the form of shapefiles (e.g. stormwater flood maps, Sandy inundation zone, hurricane evacuation zones, etc). 
-- Additional Data Related to Flood Risk - as the name suggests, are somewhat related to flooding and/or flood risk analysis (311 street flooding complaints, green infrastructure, etc.).
+- Additional Data Related to Flood Risk - as the name suggests, are somewhat related to flooding and/or flood risk analysis (311 street flooding complaints, green infrastructure projects, etc.).
 
 ### Flood Dataset Statistics
 |    | name                                                              | id        | created_date   |   download_count |   download_per_day |
@@ -31,23 +31,7 @@ Flood datasets are separated into two categories:
 |  9 | NYC Stormwater Flood Map - Moderate Flood with Current Sea Levels | 7r5q-vr7p | 2022-08-17     |             2089 |               4.13 |
 | 10 | Projected Sea Level Rise                                          | 6an6-9htp | 2017-07-12     |             1898 |               0.8  |
 
-Table xx: Top 10 flood datasets sorted by total downloads on NYC Open Data.  
-<br />
-
-|    | name                                                               | id        | created_date   |   download_count |   download_per_day |
-|---:|:-------------------------------------------------------------------|:----------|:---------------|-----------------:|-------------------:|
-|  1 | Sea Level Rise Maps (2020s 100-year Floodplain)                    | ezfn-5dsb | 2013-07-23     |           211663 |              55.44 |
-|  2 | Hurricane Evacuation Zones                                         | uihr-hn7s | 2015-07-14     |            41530 |              13.41 |
-|  3 | DEP Green Infrastructure                                           | spjh-pz7h | 2017-08-31     |            27796 |              11.99 |
-|  4 | Sandy Inundation Zone                                              | uyj8-7rv5 | 2015-11-09     |            20289 |               6.81 |
-|  5 | NYC Stormwater Flood Map - Moderate Flood with Current Sea Levels  | 7r5q-vr7p | 2022-08-17     |             2089 |               4.13 |
-|  6 | NYC Stormwater Flood Map - Extreme Flood with 2080 Sea Level Rise  | w8eg-8ha6 | 2021-06-07     |             3002 |               3.19 |
-|  7 | Building Elevation and Subgrade (BES)                              | bsin-59hv | 2023-09-12     |              256 |               2.23 |
-|  8 | NYC Stormwater Flood Map - Moderate Flood with 2050 Sea Level Rise | 5rzh-cyqd | 2021-06-07     |             1847 |               1.96 |
-|  9 | 1 foot Digital Elevation Model (DEM)                               | dpc8-z3jc | 2013-08-09     |             6524 |               1.72 |
-| 10 | DEP's Citywide Parcel-Based Impervious Area GIS Study              | uex9-rfq8 | 2020-07-13     |             1497 |               1.18 |
-
-Table xx: Top 10 flood datasets sorted by total downloads per day on NYC Open Data.  
+Table xx: Top 10 flood datasets by total downloads on NYC Open Data.  
 <br />
 
 |    | name                                                              | id        | created_date   |   page_views_per_day |   page_views_last_week |   page_views_last_month |   page_views_total |
@@ -63,24 +47,23 @@ Table xx: Top 10 flood datasets sorted by total downloads per day on NYC Open Da
 |  9 | DEP's Citywide Parcel-Based Impervious Area GIS Study             | uex9-rfq8 | 2020-07-13     |                 5.34 |                     16 |                     133 |               6783 |
 | 10 | NYC Stormwater Flood Map - Moderate Flood with Current Sea Levels | 7r5q-vr7p | 2022-08-17     |                 8.65 |                     25 |                     213 |               4375 |
 
-Table xx: Top 10 flood datasets sorted by total page views on NYC Open Data.  
+Table xx: Top 10 flood datasets by total page views on NYC Open Data.  
 <br />
 
-|    | name                                                               | id        | created_date   |   page_views_per_day |   page_views_last_week |   page_views_last_month |   page_views_total |
-|---:|:-------------------------------------------------------------------|:----------|:---------------|---------------------:|-----------------------:|------------------------:|-------------------:|
-|  1 | Sandy Inundation Zone                                              | uyj8-7rv5 | 2015-11-09     |                17.98 |                     70 |                     486 |              53564 |
-|  2 | Sea Level Rise Maps (2050s 500-year Floodplain)                    | qwca-zqw3 | 2013-07-23     |                11.17 |                    174 |                     788 |              42640 |
-|  3 | Building Elevation and Subgrade (BES)                              | bsin-59hv | 2023-09-12     |                 9.31 |                     17 |                      81 |               1071 |
-|  4 | NYC Stormwater Flood Map - Moderate Flood with Current Sea Levels  | 7r5q-vr7p | 2022-08-17     |                 8.65 |                     25 |                     213 |               4375 |
-|  5 | 1 foot Digital Elevation Model (DEM)                               | dpc8-z3jc | 2013-08-09     |                 8.48 |                     76 |                     331 |              32217 |
-|  6 | NYC Stormwater Flood Map - Extreme Flood with 2080 Sea Level Rise  | w8eg-8ha6 | 2021-06-07     |                 7.57 |                     45 |                     171 |               7127 |
-|  7 | Sea Level Rise Maps (2020s 100-year Floodplain)                    | ezfn-5dsb | 2013-07-23     |                 6.82 |                    124 |                     425 |              26052 |
-|  8 | DEP Green Infrastructure                                           | spjh-pz7h | 2017-08-31     |                 6.41 |                     84 |                     359 |              14854 |
-|  9 | DEP's Citywide Parcel-Based Impervious Area GIS Study              | uex9-rfq8 | 2020-07-13     |                 5.34 |                     16 |                     133 |               6783 |
-| 10 | NYC Stormwater Flood Map - Moderate Flood with 2050 Sea Level Rise | 5rzh-cyqd | 2021-06-07     |                 4.26 |                     32 |                     135 |               4013 |
+|    | name                                                              | id        | created_date   |   download_count |   page_views_total |   downloads_and_views |
+|---:|:------------------------------------------------------------------|:----------|:---------------|-----------------:|-------------------:|----------------------:|
+|  1 | Hurricane Evacuation Centers (Map)                                | ayer-cga7 | 2022-08-01     |           230880 |               8560 |                239440 |
+|  2 | Sea Level Rise Maps (2020s 100-year Floodplain)                   | ezfn-5dsb | 2013-07-23     |           211663 |              26064 |                237727 |
+|  3 | Sandy Inundation Zone                                             | uyj8-7rv5 | 2015-11-09     |            20289 |              53573 |                 73862 |
+|  4 | Hurricane Evacuation Zones                                        | uihr-hn7s | 2015-07-14     |            41530 |              10287 |                 51817 |
+|  5 | Sea Level Rise Maps (2050s 500-year Floodplain)                   | qwca-zqw3 | 2013-07-23     |             2414 |              42652 |                 45066 |
+|  6 | DEP Green Infrastructure                                          | spjh-pz7h | 2017-08-31     |            27796 |              14861 |                 42657 |
+|  7 | 1 foot Digital Elevation Model (DEM)                              | dpc8-z3jc | 2013-08-09     |             6524 |              32218 |                 38742 |
+|  8 | Land Cover Raster Data (2017) – 6in Resolution                    | he6d-2qns | 2018-12-07     |             3522 |               9271 |                 12793 |
+|  9 | Sea Level Rise Maps (2050s 100-year Floodplain)                   | hbw8-2bah | 2013-07-23     |             2541 |              10244 |                 12785 |
+| 10 | NYC Stormwater Flood Map - Extreme Flood with 2080 Sea Level Rise | w8eg-8ha6 | 2021-06-07     |             3003 |               7130 |                 10133 |
 
-Table xx: Top 10 flood datasets sorted by total page views per day on NYC Open Data.  
-<br />
+Table xx: Top 10 flood datasets by total downloads and page views on NYC Open Data.  
 
 ### Flood Dataset Descriptions
 #### Flood Hazard Layers
@@ -109,9 +92,22 @@ Table xx: Top 10 flood datasets sorted by total page views per day on NYC Open D
 | :-------- | :---------- |
 | [Building Elevation and Subgrade (BES)](https://data.cityofnewyork.us/City-Government/Building-Elevation-and-Subgrade-BES-/bsin-59hv) | The Building Elevation and Subgrade data contains New York City building centroids derived from the Department of Building's (DOB) February 26th, 2022 building footprint dataset. Each record contains a grade and first floor measurement for each building (recorded as feet above sea-level in the NADV88 vertical datum) and indicates if subgrade space exists. DCP contracted with an external data vendor to generate a single point, or centroid, that represented the location of the center of every building recorded in the DOB dataset. The dataset excluded the footprints of small accessory buildings such as sheds. Each row within the dataset represents one building centroid, and records the X and Y coordinates of that centroid in the NAD 1983 coordinate system. |
 | [DEP Green Infrastructure](https://data.cityofnewyork.us/Environment/DEP-Green-Infrastructure/spjh-pz7h) | NYC Green Infrastructure Program initiatives. Green infrastructure (GI) collects stormwater from streets, sidewalks, and other hard surfaces before it can enter the sewer system or cause local flooding. The GI practice data contained in this dataset includes the location, program area, status, and type of GI. |
-| [311 Service Requests from 2010 to Present](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9) | All 311 Service Requests from 2010 to present. This information is automatically updated daily. One of the descriptors is Street Flooding. |
+| [Hazard Mitigation Plan - Mitigation Actions Database](https://data.cityofnewyork.us/Environment/2050s-Mean-Monthly-High-Water/p8e8-yh4m) | 2050s Future Mean Monthly High Water (MMHW) projections released by the NPCC March 2019. |
+| [Hazard Mitigation Plan – Mitigation Actions Database (points)](https://data.cityofnewyork.us/Environment/2080s-Mean-Monthly-High-Water/amfa-s2y8) | 2080s Future Mean Monthly High Water (MMHW) projections released by the NPCC March 2019. |
+| [Hazard Mitigation Plan - Mitigation Actions Database (Lines)](https://data.cityofnewyork.us/Environment/2100s-Mean-Monthly-High-Water/mzds-2cdc) | 2100s Future Mean Monthly High Water (MMHW) projections released by the NPCC March 2019. |
+| [Hazard Mitigation Plan - Mitigation Actions Database (Polygons)](https://data.cityofnewyork.us/Environment/2020s-Mean-Monthly-High-Water/ebsy-4b6x) | 2020s Future Mean Monthly High Water (MMHW) projections released by the NPCC March 2019. |
+| [Hurricane Evacuation Centers](https://data.cityofnewyork.us/Environment/2100s-Mean-Monthly-High-Water/mzds-2cdc) | 2100s Future Mean Monthly High Water (MMHW) projections released by the NPCC March 2019. |
+| [Hurricane Evacuation Centers (Map)](https://data.cityofnewyork.us/Environment/2020s-Mean-Monthly-High-Water/ebsy-4b6x) | 2020s Future Mean Monthly High Water (MMHW) projections released by the NPCC March 2019. |
+| [Hurricane Inundation by Evacuation Zone (Map)](https://data.cityofnewyork.us/Environment/2080s-Mean-Monthly-High-Water/amfa-s2y8) | 2080s Future Mean Monthly High Water (MMHW) projections released by the NPCC March 2019. |
 | [1 foot Digital Elevation Model (DEM)](https://data.cityofnewyork.us/City-Government/1-foot-Digital-Elevation-Model-DEM-/dpc8-z3jc) | NYC 1foot Digital Elevation Model: A bare-earth, hydro-flattened, digital-elevation surface model derived from 2010 Light Detection and Ranging (LiDAR) data. Surface models are raster representations derived by interpolating the LiDAR point data to produce a seamless gridded elevation data set. A Digital Elevation Model (DEM) is a surface model generated from the LiDAR returns that correspond to the ground with all buildings, trees and other above ground features removed. The cell values represent the elevation of the ground relative to sea level. The DEM was generated by interpolating the LiDAR ground points to create a 1 foot resolution seamless surface. Cell values correspond to the ground elevation value (feet) above sea level. A proprietary approach to surface model generation was developed that reduced spurious elevation values in areas where there were no LiDAR returns, primarily beneath buildings and over water. This was combined with a detailed manual QA/QC process, with emphasis on accurate representation of docks and bare-earth within 2000ft of the water bodies surrounding each of the five boroughs. |
 | [DEP's Citywide Parcel-Based Impervious Area GIS Study](https://data.cityofnewyork.us/City-Government/DEP-s-Citywide-Parcel-Based-Impervious-Area-GIS-St/uex9-rfq8) | NOTE: This file includes data for all 5 boroughs and has a size of 4.60 GB. Individual borough files are available for download from the metadata attachments section. Citywide Geographic Information System (GIS) land cover layer that displays land cover classification, plus pervious and impervious area and percentage at the parcel level, separated into 5 geodatabases, one per borough. DEP hosted a webinar on this study on June 23, 2020. A recording of the webinar, plus a PDF of the webinar presentation, accompany this dataset and are available for download. This citywide parcel-level impervious area GIS layer was developed by the City of New York to support stormwater-related planning, and is provided solely for informational purposes. The accuracy of the data should be independently verified for any other purpose. |
+| [Land Cover Raster Data (2017) – 6in Resolution](https://data.cityofnewyork.us/Environment/2020s-Mean-Monthly-High-Water/ebsy-4b6x) | 2020s Future Mean Monthly High Water (MMHW) projections released by the NPCC March 2019. |
+| [311 Service Requests from 2010 to Present](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9) | All 311 Service Requests from 2010 to present. This information is automatically updated daily. One of the descriptors is Street Flooding. |
+| [Emergency Response Incidents](https://data.cityofnewyork.us/Environment/2020s-Mean-Monthly-High-Water/ebsy-4b6x) | 2020s Future Mean Monthly High Water (MMHW) projections released by the NPCC March 2019. |
+| [NYCEM Emergency Notifications](https://data.cityofnewyork.us/Environment/2050s-Mean-Monthly-High-Water/p8e8-yh4m) | 2050s Future Mean Monthly High Water (MMHW) projections released by the NPCC March 2019. |
+| [Incidents Responded to by Fire Companies](https://data.cityofnewyork.us/Environment/2050s-Mean-Monthly-High-Water/p8e8-yh4m) | 2050s Future Mean Monthly High Water (MMHW) projections released by the NPCC March 2019. |
+| [Street Construction Permits (2013-2021)](https://data.cityofnewyork.us/Environment/2080s-Mean-Monthly-High-Water/amfa-s2y8) | 2080s Future Mean Monthly High Water (MMHW) projections released by the NPCC March 2019. |
+| [Street Construction Permits (2022-Present)](https://data.cityofnewyork.us/Environment/2100s-Mean-Monthly-High-Water/mzds-2cdc) | 2100s Future Mean Monthly High Water (MMHW) projections released by the NPCC March 2019. |
 | [Building Footprints](https://data.cityofnewyork.us/Housing-Development/Building-Footprints/nqwf-w8eh) | Shapefile of footprint outlines of buildings in New York City. |
 | [Primary Land Use Tax Lot Output - Map (MapPLUTO)](https://data.cityofnewyork.us/City-Government/Primary-Land-Use-Tax-Lot-Output-Map-MapPLUTO-/f888-ni5f) | Extensive land use and geographic data at the tax lot level in GIS format (ESRI Shapefile). Contains more than seventy fields derived from data maintained by city agencies, merged with tax lot features from the Department of Finance’s Digital Tax Map, clipped to the shoreline. |
 
