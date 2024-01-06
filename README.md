@@ -4,7 +4,7 @@ Author: Mark Bauer
 ### Table of Contents
 * [Introduction](#Introduction)
 * [Flood Dataset Statistics](#Flood-Dataset-Statistics)
-* [Flood Datasets](#Flood-Datasets)
+* [Flood Dataset Descriptions](#Flood-Dataset-Descriptions)
     * [Flood Hazard Layers](#Flood-Hazard-Layers)
     * [Additional Data Related to Flood Risk](#Additional-Data-Related-to-Flood-Risk)
 * [Resources](#Resources)
@@ -82,7 +82,7 @@ Table xx: Top 10 flood datasets sorted by total page views on NYC Open Data.
 Table xx: Top 10 flood datasets sorted by total page views per day on NYC Open Data.  
 <br />
 
-### Flood Datasets
+### Flood Dataset Descriptions
 #### Flood Hazard Layers
 | Dataset | Description |
 | :-------- | :---------- |
