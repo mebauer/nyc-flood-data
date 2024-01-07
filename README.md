@@ -11,7 +11,7 @@ Author: Mark Bauer
 * [Say Hello!](#Say-Hello)
 
 ### Introduction
-A collection of free and publicly available flood data from NYC Open Data. This project examines flood datasets with the most downloads and page views. You can find this work in the [analysis.ipynb](https://github.com/mebauer/nyc-flood-data/blob/main/analysis.ipynb) notebook, which focuses on open source and reproducible workflows. Additionally, if you're curious how the datasets 311 Service Requests from 2010 to Present, Emergency Response Incidents, NYCEM Emergency Notifications, Incidents Responded to by Fire Companies, and Street Construction Permits (2022-Present) can tell us about flooding, please visit the [searchstring-flood.ipynb](https://github.com/mebauer/nyc-flood-data/blob/main/searchstring-flood.ipynb) notebook.
+This project compiles free and publicly available flood data from NYC Open Data. Additionally, I examine flood datasets with the most downloads and page views. You can find this work in the [analysis.ipynb](https://github.com/mebauer/nyc-flood-data/blob/main/analysis.ipynb) notebook, which focuses on open source and reproducible workflows. If you're curious how the datasets 311 Service Requests from 2010 to Present, Emergency Response Incidents, NYCEM Emergency Notifications, Incidents Responded to by Fire Companies, and Street Construction Permits (2022-Present) can tell us about flooding, please visit the [searchstring-flood.ipynb](https://github.com/mebauer/nyc-flood-data/blob/main/searchstring-flood.ipynb) notebook.
 
 Flood datasets are separated into two categories:
 - Flood Hazard Layers - usually in the form of shapefiles. Examples include stormwater flood maps, Sandy inundation zone, hurricane evacuation zones, etc. 
