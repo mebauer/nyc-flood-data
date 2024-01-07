@@ -1,4 +1,4 @@
-## A Collection of Flood Datasets on NYC Open Data
+## NYC Open Data Flood Datasets Catalog: A Comprehensive Inventory
 Author: Mark Bauer
 
 ### Table of Contents
@@ -6,18 +6,19 @@ Author: Mark Bauer
 * [Flood Dataset Statistics](#Flood-Dataset-Statistics)
 * [Flood Dataset Descriptions](#Flood-Dataset-Descriptions)
     * [Flood Hazard Layers](#Flood-Hazard-Layers)
-    * [Additional Data Related to Flood Risk](#Additional-Data-Related-to-Flood-Risk)
+    * [Additional Data Related to Flooding](#Additional-Data-Related-to-Flooding)
 * [Resources](#Resources)
 * [Say Hello!](#Say-Hello)
 
 ### Introduction
-This project compiles free and publicly available flood data from NYC Open Data. Additionally, I examine flood datasets with the most downloads and page views. You can find this work in the [analysis.ipynb](https://github.com/mebauer/nyc-flood-data/blob/main/analysis.ipynb) notebook, which focuses on open source and reproducible workflows. If you're curious how the datasets 311 Service Requests from 2010 to Present, Emergency Response Incidents, NYCEM Emergency Notifications, Incidents Responded to by Fire Companies, and Street Construction Permits (2022-Present) can tell us about flooding, please visit the [searchstring-flood.ipynb](https://github.com/mebauer/nyc-flood-data/blob/main/searchstring-flood.ipynb) notebook.
+This project compiles freely accessible flood data from NYC Open Data and conducts an analysis based on datasets with the highest downloads and page views. The methodology and outcomes are documented in the [analysis.ipynb](https://github.com/mebauer/nyc-flood-data/blob/main/analysis.ipynb) notebook, emphasizing the use of open-source and reproducible workflows. For specific flood-related information within datasets like 311 Service Requests from 2010 to Present, Emergency Response Incidents, NYCEM Emergency Notifications, Incidents Responded to by Fire Companies, and Street Construction Permits, refer to the dedicated [searchstring-flood.ipynb](https://github.com/mebauer/nyc-flood-data/blob/main/searchstring-flood.ipynb) notebook.
 
-Flood datasets are separated into two categories:
-- Flood Hazard Layers - usually in the form of shapefiles. Examples include stormwater flood maps, Sandy inundation zone, hurricane evacuation zones, etc. 
-- Additional Data Related to Flood Risk - as the name suggests, are somewhat related to flooding and/or flood risk information (e.g. 311 street flooding complaints, green infrastructure projects, Hazard Mitigation Plan projects, etc.).
+The flood datasets are categorized into two groups:
 
-In the sections below, you'll find tables by download count and page views per dataset, and then a full inventory of flood datasets on NYC Open Data.
+- **Flood Hazard Layers:** Typically provided as shapefiles, examples include stormwater flood maps, Sandy inundation zones, hurricane evacuation zones, etc.
+- **Additional Data Related to Flooding:** These datasets are somewhat related to flooding and/or flood risk information, encompassing 311 street flooding complaints, green infrastructure projects, Hazard Mitigation Plan projects, etc.
+
+Explore tables detailing download counts and page views per dataset below, followed by a comprehensive inventory of flood datasets available on NYC Open Data.
 
 ### Flood Dataset Statistics
 |   rank | name                                                              | id        | created_date   |   download_count |   download_per_day |
@@ -89,7 +90,7 @@ Table xx: Top 10 flood datasets by total downloads and page views on NYC Open Da
 | [2080s Mean Monthly High Water](https://data.cityofnewyork.us/Environment/2080s-Mean-Monthly-High-Water/amfa-s2y8) | 2080s Future Mean Monthly High Water (MMHW) projections released by the NPCC March 2019. |
 | [2100s Mean Monthly High Water](https://data.cityofnewyork.us/Environment/2100s-Mean-Monthly-High-Water/mzds-2cdc) | 2100s Future Mean Monthly High Water (MMHW) projections released by the NPCC March 2019. |
 
-#### Additional Data Related to Flood Risk
+#### Additional Data Related to Flooding
 | Dataset | Description |
 | :-------- | :---------- |
 | [Building Elevation and Subgrade (BES)](https://data.cityofnewyork.us/City-Government/Building-Elevation-and-Subgrade-BES-/bsin-59hv) | The Building Elevation and Subgrade data contains New York City building centroids derived from the Department of Building's (DOB) February 26th, 2022 building footprint dataset. Each record contains a grade and first floor measurement for each building (recorded as feet above sea-level in the NADV88 vertical datum) and indicates if subgrade space exists. DCP contracted with an external data vendor to generate a single point, or centroid, that represented the location of the center of every building recorded in the DOB dataset. The dataset excluded the footprints of small accessory buildings such as sheds. Each row within the dataset represents one building centroid, and records the X and Y coordinates of that centroid in the NAD 1983 coordinate system. |
