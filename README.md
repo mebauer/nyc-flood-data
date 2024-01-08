@@ -1,4 +1,4 @@
-## NYC Open Data Flood Datasets Catalog: A Comprehensive Inventory
+## Flood Data Catalog for NYC: A Comprehensive NYC Open Data Inventory
 Author: Mark Bauer
 
 ### Table of Contents
