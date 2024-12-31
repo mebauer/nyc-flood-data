@@ -1,4 +1,4 @@
-## Flood Data Catalog for NYC: Comprehensive Inventory on NYC Open Data
+# Flood Data for NYC: A Comprehensive Inventory on NYC Open Data
 Author: Mark Bauer
 
 ### Table of Contents
@@ -10,7 +10,7 @@ Author: Mark Bauer
 * [Resources](#Resources)
 * [Say Hello!](#Say-Hello)
 
-### Introduction
+# Introduction
 This project compiles freely accessible flood data from NYC Open Data and conducts an analysis based on datasets with the highest downloads and page views. The methodology and outcomes are documented in the [analysis.ipynb](https://github.com/mebauer/nyc-flood-data/blob/main/analysis.ipynb) notebook, emphasizing the use of open-source and reproducible workflows. For specific flood-related information within datasets like 311 Service Requests from 2010 to Present, Emergency Response Incidents, NYCEM Emergency Notifications, Incidents Responded to by Fire Companies, and Street Construction Permits, refer to the [searchstring-flood.ipynb](https://github.com/mebauer/nyc-flood-data/blob/main/searchstring-flood.ipynb) notebook.
 
 The flood datasets are categorized into two groups:
@@ -20,7 +20,7 @@ The flood datasets are categorized into two groups:
 
 Explore tables detailing download counts and page views per dataset below, followed by a comprehensive inventory of flood datasets available on NYC Open Data.
 
-### Flood Dataset Statistics
+# Flood Dataset Statistics
 |   rank | name                                                              | id        | created_date   |   download_count |   download_per_day |
 |-------:|:------------------------------------------------------------------|:----------|:---------------|-----------------:|-------------------:|
 |      1 | Hurricane Evacuation Centers (Map)                                | ayer-cga7 | 2022-08-01     |           230880 |             441.45 |
@@ -68,8 +68,8 @@ Table xx: Top 10 flood datasets by total page views on NYC Open Data.
 
 Table xx: Top 10 flood datasets by total downloads and page views on NYC Open Data.  
 
-### Flood Dataset Descriptions
-#### Flood Hazard Layers
+# Flood Dataset Descriptions
+## Flood Hazard Layers
 | Dataset | Description |
 | :-------- | :---------- |
 | [Hurricane Evacuation Zones](https://data.cityofnewyork.us/Public-Safety/Hurricane-Evacuation-Zones/uihr-hn7s) | Hurricane Evacuation Zones are determined by New York City Emergency Management and represent varying threat levels of coastal flooding resulting from storm surge. Hurricane evacuation zones should not be confused with flood insurance risk zones, which are designated by FEMA and available in the form of Flood Insurance Rate Maps (FIRMs). |
@@ -90,7 +90,7 @@ Table xx: Top 10 flood datasets by total downloads and page views on NYC Open Da
 | [2080s Mean Monthly High Water](https://data.cityofnewyork.us/Environment/2080s-Mean-Monthly-High-Water/amfa-s2y8) | 2080s Future Mean Monthly High Water (MMHW) projections released by the NPCC March 2019. |
 | [2100s Mean Monthly High Water](https://data.cityofnewyork.us/Environment/2100s-Mean-Monthly-High-Water/mzds-2cdc) | 2100s Future Mean Monthly High Water (MMHW) projections released by the NPCC March 2019. |
 
-#### Additional Data Related to Flooding
+## Additional Data Related to Flooding
 | Dataset | Description |
 | :-------- | :---------- |
 | [Building Elevation and Subgrade (BES)](https://data.cityofnewyork.us/City-Government/Building-Elevation-and-Subgrade-BES-/bsin-59hv) | The Building Elevation and Subgrade data contains New York City building centroids derived from the Department of Building's (DOB) February 26th, 2022 building footprint dataset. Each record contains a grade and first floor measurement for each building (recorded as feet above sea-level in the NADV88 vertical datum) and indicates if subgrade space exists. DCP contracted with an external data vendor to generate a single point, or centroid, that represented the location of the center of every building recorded in the DOB dataset. The dataset excluded the footprints of small accessory buildings such as sheds. Each row within the dataset represents one building centroid, and records the X and Y coordinates of that centroid in the NAD 1983 coordinate system. |
@@ -114,10 +114,10 @@ Table xx: Top 10 flood datasets by total downloads and page views on NYC Open Da
 | [Building Footprints](https://data.cityofnewyork.us/Housing-Development/Building-Footprints/nqwf-w8eh) | Shapefile of footprint outlines of buildings in New York City. |
 | [Primary Land Use Tax Lot Output - Map (MapPLUTO)](https://data.cityofnewyork.us/City-Government/Primary-Land-Use-Tax-Lot-Output-Map-MapPLUTO-/f888-ni5f) | Extensive land use and geographic data at the tax lot level in GIS format (ESRI Shapefile). Contains more than seventy fields derived from data maintained by city agencies, merged with tax lot features from the Department of Finance’s Digital Tax Map, clipped to the shoreline. |
 
-### Resources
+# Resources
 I also created a [repository](https://github.com/mebauer/nyc-flood-layers) that demonstrates how to use flood hazard layers for New York City using the Python programming language.  
 
-### Say Hello!
+# Say Hello!
 Contact information:  
 Twitter: [markbauerwater](https://twitter.com/markbauerwater)   
 LinkedIn: [markebauer](https://www.linkedin.com/in/markebauer/)  
