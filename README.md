@@ -1,12 +1,13 @@
-# Flood Data for NYC: A Comprehensive Inventory on NYC Open Data
+# Flood Data for New York City: A Comprehensive Inventory on NYC Open Data
 Author: Mark Bauer
 
 ### Table of Contents
 * [Introduction](#Introduction)
-* [Flood Dataset Statistics](#Flood-Dataset-Statistics)
-* [Flood Dataset Descriptions](#Flood-Dataset-Descriptions)
+* [Dataset Summary Statistics](#Dataset-Summary-Statistics)
+* [Dataset Descriptions](#Dataset-Descriptions)
     * [Flood Hazard Layers](#Flood-Hazard-Layers)
-    * [Additional Data Related to Flooding](#Additional-Data-Related-to-Flooding)
+    * [Additional Datasets Related to Flooding](#Additional-Datasets-Related-to-Flooding)
+    * [Unconventional Datasets](#Unconventional-Datasets)
 * [Resources](#Resources)
 * [Say Hello!](#Say-Hello)
 
@@ -20,7 +21,7 @@ The flood datasets are categorized into two groups:
 
 Explore tables detailing download counts and page views per dataset below, followed by a comprehensive inventory of flood datasets available on NYC Open Data.
 
-# Flood Dataset Statistics
+# Dataset Summary Statistics
 Table xx: Top 10 flood datasets by total downloads on NYC Open Data.
 |   rank | name                                                  | id        | created_date   |   download_count |   download_per_day |
 |-------:|:------------------------------------------------------|:----------|:---------------|-----------------:|-------------------:|
@@ -53,21 +54,21 @@ Table xx: Top 10 flood datasets by total page views on NYC Open Data.
 |     10 | DEP's Citywide Parcel-Based Impervious Area GIS Study | uex9-rfq8 | 2020-07-13     |               9260 |                 5.67 |                     36 |                     218 |
 <br />
 
-Table xx: Top 10 flood datasets by total downloads and page views on NYC Open Data.
+Table xx: Top 10 flood datasets by average of total downloads per day and page views per day on NYC Open Data.
 |   rank | name                                                  | id        | created_date   |   downloads_and_views |   download_count |   page_views_total |
 |-------:|:------------------------------------------------------|:----------|:---------------|----------------------:|-----------------:|-------------------:|
-|      1 | Sea Level Rise Maps (2020s 100-year Floodplain)       | ezfn-5dsb | 2013-07-23     |                243445 |           211663 |              31782 |
-|      2 | Hurricane Evacuation Centers (Map)                    | ayer-cga7 | 2022-08-01     |                240989 |           230890 |              10099 |
-|      3 | Sandy Inundation Zone                                 | uyj8-7rv5 | 2015-11-09     |                 82517 |            20293 |              62224 |
-|      4 | Sea Level Rise Maps (2050s 500-year Floodplain)       | qwca-zqw3 | 2013-07-23     |                 55642 |             2414 |              53228 |
-|      5 | Hurricane Evacuation Zones                            | uihr-hn7s | 2015-07-14     |                 53876 |            41530 |              12346 |
-|      6 | DEP Green Infrastructure                              | spjh-pz7h | 2017-08-31     |                 47464 |            27796 |              19668 |
-|      7 | 1 foot Digital Elevation Model (DEM)                  | dpc8-z3jc | 2013-08-09     |                 44869 |             6524 |              38345 |
-|      8 | Land Cover Raster Data (2017) – 6in Resolution        | he6d-2qns | 2018-12-07     |                 17608 |             4674 |              12934 |
-|      9 | Sea Level Rise Maps (2050s 100-year Floodplain)       | hbw8-2bah | 2013-07-23     |                 14631 |             2546 |              12085 |
-|     10 | DEP's Citywide Parcel-Based Impervious Area GIS Study | uex9-rfq8 | 2020-07-13     |                 11230 |             1970 |               9260 |
+|      1 | Sea Level Rise Maps (2020s 100-year Floodplain)       | ezfn-5dsb | 2013-07-23     |                243462 |           211663 |              31799 |
+|      2 | Hurricane Evacuation Centers (Map)                    | ayer-cga7 | 2022-08-01     |                240996 |           230890 |              10106 |
+|      3 | Sandy Inundation Zone                                 | uyj8-7rv5 | 2015-11-09     |                 82549 |            20293 |              62256 |
+|      4 | Sea Level Rise Maps (2050s 500-year Floodplain)       | qwca-zqw3 | 2013-07-23     |                 55698 |             2414 |              53284 |
+|      5 | Hurricane Evacuation Zones                            | uihr-hn7s | 2015-07-14     |                 53886 |            41530 |              12356 |
+|      6 | DEP Green Infrastructure                              | spjh-pz7h | 2017-08-31     |                 47479 |            27796 |              19683 |
+|      7 | 1 foot Digital Elevation Model (DEM)                  | dpc8-z3jc | 2013-08-09     |                 44894 |             6524 |              38370 |
+|      8 | Land Cover Raster Data (2017) – 6in Resolution        | he6d-2qns | 2018-12-07     |                 17626 |             4679 |              12947 |
+|      9 | Sea Level Rise Maps (2050s 100-year Floodplain)       | hbw8-2bah | 2013-07-23     |                 14636 |             2546 |              12090 |
+|     10 | DEP's Citywide Parcel-Based Impervious Area GIS Study | uex9-rfq8 | 2020-07-13     |                 11238 |             1971 |               9267 |
 
-# Flood Dataset Descriptions
+# Dataset Descriptions
 ## Flood Hazard Layers
 | Dataset | Description |
 | :-------- | :---------- |
