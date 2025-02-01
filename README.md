@@ -22,35 +22,35 @@ Explore tables detailing download counts and page views per dataset below, follo
 
 # Dataset Summary Statistics
 Table xx: Top 10 flood-related datasets by total downloads per day on NYC Open Data.
-|   rank | name                                                                                       | id        | created_date   |   download_count |   download_per_day |
-|-------:|:-------------------------------------------------------------------------------------------|:----------|:---------------|-----------------:|-------------------:|
-|      1 | Hurricane Evacuation Centers (Map)                                                         | ayer-cga7 | 2022-08-01     |           230895 |             252.62 |
-|      2 | Sandy Inundation Zone                                                                      | uyj8-7rv5 | 2015-11-09     |            20293 |               6.02 |
-|      3 | NYC Stormwater Flood Maps                                                                  | 9i7c-xyvv | 2024-07-03     |              772 |               3.64 |
-|      4 | Land Cover Raster Data (2017) – 6in Resolution                                             | he6d-2qns | 2018-12-07     |             4733 |               2.11 |
-|      5 | New York City's Flood Vulnerability Index                                                  | mrjc-v9pm | 2024-03-06     |              643 |               1.94 |
-|      6 | New York City Climate Projections: Extreme Events and Sea Level Rise                       | 38ps-fnsg | 2024-02-13     |              647 |               1.83 |
-|      7 | Building Elevation and Subgrade (BES)                                                      | bsin-59hv | 2023-09-12     |              835 |               1.65 |
-|      8 | 1 foot Digital Elevation Model (DEM)                                                       | dpc8-z3jc | 2013-08-09     |             6524 |               1.56 |
-|      9 | DEP's Citywide Parcel-Based Impervious Area GIS Study                                      | uex9-rfq8 | 2020-07-13     |             1993 |               1.2  |
-|     10 | NYC Climate Budgeting Report: Climate Alignment Assessment and Capital Climate Investments | c99a-c5ux | 2024-05-15     |              278 |               1.07 |
+|   rank | name                                                                 | id        | created_date   |   download_count |   download_per_day |
+|-------:|:---------------------------------------------------------------------|:----------|:---------------|-----------------:|-------------------:|
+|      1 | Hurricane Evacuation Centers (Map)                                   | ayer-cga7 | 2022-08-01     |           230895 |             252.62 |
+|      2 | Sandy Inundation Zone                                                | uyj8-7rv5 | 2015-11-09     |            20293 |               6.02 |
+|      3 | NYC Stormwater Flood Maps                                            | 9i7c-xyvv | 2024-07-03     |              772 |               3.64 |
+|      4 | Land Cover Raster Data (2017) – 6in Resolution                       | he6d-2qns | 2018-12-07     |             4733 |               2.11 |
+|      5 | New York City Climate Projections: Temperature and Precipitation     | hmdk-eidg | 2024-01-18     |              779 |               2.06 |
+|      6 | New York City's Flood Vulnerability Index                            | mrjc-v9pm | 2024-03-06     |              643 |               1.94 |
+|      7 | New York City Climate Projections: Extreme Events and Sea Level Rise | 38ps-fnsg | 2024-02-13     |              647 |               1.83 |
+|      8 | Building Elevation and Subgrade (BES)                                | bsin-59hv | 2023-09-12     |              835 |               1.65 |
+|      9 | 1 foot Digital Elevation Model (DEM)                                 | dpc8-z3jc | 2013-08-09     |             6524 |               1.56 |
+|     10 | DEP's Citywide Parcel-Based Impervious Area GIS Study                | uex9-rfq8 | 2020-07-13     |             1993 |               1.2  |
   
 <br />
 
 
 Table xx: Top 10 flood-related datasets by total page views per day on NYC Open Data.
-|   rank | name                                                                 | id        | created_date   |   page_views_per_day |   page_views_total |   page_views_last_week |   page_views_last_month |
-|-------:|:---------------------------------------------------------------------|:----------|:---------------|---------------------:|-------------------:|-----------------------:|------------------------:|
-|      1 | Sandy Inundation Zone                                                | uyj8-7rv5 | 2015-11-09     |                18.63 |              62816 |                    151 |                     576 |
-|      2 | Hurricane Evacuation Centers (Map)                                   | ayer-cga7 | 2022-08-01     |                11.26 |              10291 |                     33 |                     185 |
-|      3 | NYC Stormwater Flood Maps                                            | 9i7c-xyvv | 2024-07-03     |                11.01 |               2335 |                     90 |                     375 |
-|      4 | New York City's Flood Vulnerability Index Map                        | 4vym-qrg3 | 2024-03-06     |                 9.42 |               3118 |                     75 |                     322 |
-|      5 | 1 foot Digital Elevation Model (DEM)                                 | dpc8-z3jc | 2013-08-09     |                 9.29 |              38959 |                    171 |                     609 |
-|      6 | New York City's Flood Vulnerability Index                            | mrjc-v9pm | 2024-03-06     |                 8.9  |               2947 |                     66 |                     236 |
-|      7 | Building Elevation and Subgrade (BES)                                | bsin-59hv | 2023-09-12     |                 7.15 |               3624 |                     92 |                     287 |
-|      8 | Land Cover Raster Data (2017) – 6in Resolution                       | he6d-2qns | 2018-12-07     |                 5.89 |              13246 |                     64 |                     307 |
-|      9 | DEP's Citywide Parcel-Based Impervious Area GIS Study                | uex9-rfq8 | 2020-07-13     |                 5.69 |               9469 |                     40 |                     208 |
-|     10 | New York City Climate Projections: Extreme Events and Sea Level Rise | 38ps-fnsg | 2024-02-13     |                 5.63 |               1989 |                     48 |                     181 |
+|   rank | name                                                             | id        | created_date   |   page_views_per_day |   page_views_total |   page_views_last_week |   page_views_last_month |
+|-------:|:-----------------------------------------------------------------|:----------|:---------------|---------------------:|-------------------:|-----------------------:|------------------------:|
+|      1 | Sandy Inundation Zone                                            | uyj8-7rv5 | 2015-11-09     |                18.63 |              62816 |                    151 |                     576 |
+|      2 | Hurricane Evacuation Centers (Map)                               | ayer-cga7 | 2022-08-01     |                11.26 |              10291 |                     33 |                     185 |
+|      3 | NYC Stormwater Flood Maps                                        | 9i7c-xyvv | 2024-07-03     |                11.01 |               2335 |                     90 |                     375 |
+|      4 | New York City's Flood Vulnerability Index Map                    | 4vym-qrg3 | 2024-03-06     |                 9.42 |               3118 |                     75 |                     322 |
+|      5 | 1 foot Digital Elevation Model (DEM)                             | dpc8-z3jc | 2013-08-09     |                 9.29 |              38959 |                    171 |                     609 |
+|      6 | New York City's Flood Vulnerability Index                        | mrjc-v9pm | 2024-03-06     |                 8.9  |               2947 |                     66 |                     236 |
+|      7 | Building Elevation and Subgrade (BES)                            | bsin-59hv | 2023-09-12     |                 7.15 |               3624 |                     92 |                     287 |
+|      8 | New York City Climate Projections: Temperature and Precipitation | hmdk-eidg | 2024-01-18     |                 6.59 |               2497 |                     71 |                     250 |
+|      9 | Land Cover Raster Data (2017) – 6in Resolution                   | he6d-2qns | 2018-12-07     |                 5.89 |              13246 |                     64 |                     307 |
+|     10 | DEP's Citywide Parcel-Based Impervious Area GIS Study            | uex9-rfq8 | 2020-07-13     |                 5.69 |               9469 |                     40 |                     208 |
 
 <br />
 
@@ -61,13 +61,13 @@ Table xx: Top 10 flood-related datasets by total downloads and page views per da
 |      1 | Hurricane Evacuation Centers (Map)                                   | ayer-cga7 | 2022-08-01     |                        263.88 |                241186 |
 |      2 | Sandy Inundation Zone                                                | uyj8-7rv5 | 2015-11-09     |                         24.65 |                 83109 |
 |      3 | NYC Stormwater Flood Maps                                            | 9i7c-xyvv | 2024-07-03     |                         14.66 |                  3107 |
-|      4 | 1 foot Digital Elevation Model (DEM)                                 | dpc8-z3jc | 2013-08-09     |                         10.85 |                 45483 |
-|      5 | New York City's Flood Vulnerability Index                            | mrjc-v9pm | 2024-03-06     |                         10.85 |                  3590 |
+|      4 | New York City's Flood Vulnerability Index                            | mrjc-v9pm | 2024-03-06     |                         10.85 |                  3590 |
+|      5 | 1 foot Digital Elevation Model (DEM)                                 | dpc8-z3jc | 2013-08-09     |                         10.85 |                 45483 |
 |      6 | New York City's Flood Vulnerability Index Map                        | 4vym-qrg3 | 2024-03-06     |                          9.42 |                  3119 |
 |      7 | Building Elevation and Subgrade (BES)                                | bsin-59hv | 2023-09-12     |                          8.79 |                  4459 |
-|      8 | Land Cover Raster Data (2017) – 6in Resolution                       | he6d-2qns | 2018-12-07     |                          8    |                 17979 |
-|      9 | New York City Climate Projections: Extreme Events and Sea Level Rise | 38ps-fnsg | 2024-02-13     |                          7.47 |                  2636 |
-|     10 | DEP's Citywide Parcel-Based Impervious Area GIS Study                | uex9-rfq8 | 2020-07-13     |                          6.89 |                 11462 |
+|      8 | New York City Climate Projections: Temperature and Precipitation     | hmdk-eidg | 2024-01-18     |                          8.64 |                  3276 |
+|      9 | Land Cover Raster Data (2017) – 6in Resolution                       | he6d-2qns | 2018-12-07     |                          8    |                 17979 |
+|     10 | New York City Climate Projections: Extreme Events and Sea Level Rise | 38ps-fnsg | 2024-02-13     |                          7.47 |                  2636 |
 
 # Dataset Descriptions
 ## Flood Hazard Layers
