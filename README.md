@@ -14,13 +14,13 @@ Author: Mark Bauer
 # Introduction
 This project has three primary goals:
 
-1) Provide the most comprehensive catalog of flood-related datasets from NYC Open Data
+1) Provide the most comprehensive catalog ever of flood-related datasets from NYC Open Data
 2) To search for new flood-related datasets
 3) Analyze popular flood-related datasets from NYC Open Data
 
-First, we analyze the datasets with the highest download counts and page views to understand which flood-related resources are most in demand for research and policy-making. The methodology and findings of this analysis are documented in the [metadata-analysis](https://github.com/mebauer/nyc-flood-data/blob/main/notebooks/metadata-analysis.ipynb) notebook, focusing on open-source and reproducible workflows.
+First, I analyzed the datasets with the highest download counts and page views to understand which flood-related resources are most in demand for research and policy-making. The methodology and findings of this analysis are documented in the [metadata-analysis](https://github.com/mebauer/nyc-flood-data/blob/main/notebooks/metadata-analysis.ipynb) notebook, focusing on open-source and reproducible workflows. While some of these statistics can be influenced, they may still provide valuable insights into dataset usage and interest.
 
-Second, we conducted an extensive search for flood-related datasets across the entire NYC Open Data platform. This was done by searching for the keyword "flood" in all available datasets, which helps uncover hidden or less obvious resources that may not be immediately recognized as flood-related. The search process and its results are detailed in the [search.py](https://github.com/mebauer/nyc-flood-data/blob/main/scripts/search.py) Python script.
+Second, and I suspect the most exciting part, I conducted an extensive search for flood-related datasets across the entire NYC Open Data platform. This was done by searching for the keyword "flood" in all available datasets, which helps uncover hidden or less obvious resources that may not be immediately recognized as flood-related. The search process and its results are detailed in the [search.py](https://github.com/mebauer/nyc-flood-data/blob/main/scripts/search.py) Python script, and the analysis is documented in the [dataset-analysis](https://github.com/mebauer/nyc-flood-data/blob/main/notebooks/dataset-analysis.ipynb) notebook.
 
 The flood datasets are categorized into three groups for easier navigation:
 
