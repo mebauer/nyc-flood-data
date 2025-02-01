@@ -9,17 +9,26 @@ Author: Mark Bauer
     * [Flood-Related Datasets](#Flood-Related-Datasets)
     * [Unconventional Datasets](#Unconventional-Datasets)
 * [Say Hello!](#Say-Hello)
+* [Appendix](#Appendix)
 
 # Introduction
-This project compiles freely accessible flood data from NYC Open Data and conducts an analysis based on datasets with the highest downloads and page views. The methodology and outcomes are documented in the [analysis.ipynb](https://github.com/mebauer/nyc-flood-data/blob/main/analysis.ipynb) notebook, emphasizing the use of open-source and reproducible workflows. For specific flood-related information within datasets like 311 Service Requests from 2010 to Present, Emergency Response Incidents, NYCEM Emergency Notifications, Incidents Responded to by Fire Companies, and Street Construction Permits, refer to the [searchstring-flood.ipynb](https://github.com/mebauer/nyc-flood-data/blob/main/searchstring-flood.ipynb) notebook.
+This project has three primary goals:
 
-The flood datasets are categorized into two groups:
+1) Provide the most comprehensive catalog of flood-related datasets from NYC Open Data
+2) To search for new flood-related datasets
+3) Analyze popular flood-related datasets from NYC Open Data
+
+First, we analyze the datasets with the highest download counts and page views to understand which flood-related resources are most in demand for research and policy-making. The methodology and findings of this analysis are documented in the [metadata-analysis](https://github.com/mebauer/nyc-flood-data/blob/main/notebooks/metadata-analysis.ipynb) notebook, focusing on open-source and reproducible workflows.
+
+Second, we conducted an extensive search for flood-related datasets across the entire NYC Open Data platform. This was done by searching for the keyword "flood" in all available datasets, which helps uncover hidden or less obvious resources that may not be immediately recognized as flood-related. The search process and its results are detailed in the [search.py](https://github.com/mebauer/nyc-flood-data/blob/main/scripts/search.py) Python script.
+
+The flood datasets are categorized into three groups for easier navigation:
 
 - **Flood Hazard Layers:** These datasets provide direct information about areas at risk of flooding. They are essential for assessing flood risk and guiding flood mitigation and planning.
-- **Flood-Related Datasets:** These datasets capture the infrastructure and features that contribute to flood management, resilience, and urban response to flooding.
+- **Flood-Related Datasets:** These datasets capture the infrastructure and features that contribute to flood management, resilience, mitigation, and urban response to flooding.
 - **Unconventional Datasets Related to Flooding:** These datasets provide non-traditional but highly valuable data sources that can offer unique insights into urban flooding and resilience.
 
-Explore tables detailing download counts and page views per dataset below, followed by a comprehensive inventory of flood datasets available on NYC Open Data.
+Tables summarizing the download counts and page views of the most popular datasets are presented below, followed by a comprehensive inventory of flood-related datasets available on NYC Open Data, including those identified through the "flood" search. In the Appendix, you’ll find tables detailing the number of rows per dataset that contain the keyword "flood." The full workflow for data analysis can be found in the [datasets-analysis](https://github.com/mebauer/nyc-flood-data/blob/main/notebooks/dataset-analysis.ipynb) notebook.
 
 # Dataset Summary Statistics
 Table xx: Top 10 flood-related datasets by total downloads per day on NYC Open Data.
@@ -143,6 +152,8 @@ GitHub: [mebauer](https://github.com/mebauer)
 
 
 # Appendix
+
+Table xx: Number of rows with word "flood" by agency, dataset, column name, and column value.
 |    | attribution                                            | name                                                    | column                                | value                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |   count |
 |---:|:-------------------------------------------------------|:--------------------------------------------------------|:--------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------:|
 |  0 | 311                                                    | 311 Service Requests from 2010 to Present               | descriptor                            | Catch Basin Clogged/Flooding (Use Comments) (SC)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |  119031 |
@@ -208,6 +219,7 @@ GitHub: [mebauer](https://github.com/mebauer)
 
 <br />
 
+Table xx: Number of rows with word "flood" by agency, dataset, column name, and column value excluding 311 and DOT datasets, as these conditions dominated the table above.
 
 |    | attribution                                            | name                                                                                       | column                                | value                                                                                                                                                                                        |   count |
 |---:|:-------------------------------------------------------|:-------------------------------------------------------------------------------------------|:--------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------:|
