@@ -20,7 +20,12 @@ This project has three primary goals:
 
 First, I analyzed the datasets with the highest download counts and page views to understand which flood-related resources are most in demand for research and policy-making. The methodology and findings of this analysis are documented in the [metadata-analysis](https://github.com/mebauer/nyc-flood-data/blob/main/notebooks/metadata-analysis.ipynb) notebook, focusing on open-source and reproducible workflows. While some of these statistics can be influenced, they may still provide valuable insights into dataset usage and interest.
 
-Second, and I suspect the most exciting part, I conducted an extensive search for flood-related datasets across the entire NYC Open Data platform. This was done by searching for the keyword "flood" in all available datasets, which helps uncover hidden or less obvious resources that may not be immediately recognized as flood-related. The search process and its results are detailed in the [search.py](https://github.com/mebauer/nyc-flood-data/blob/main/scripts/search.py) Python script, and the analysis is documented in the [dataset-analysis](https://github.com/mebauer/nyc-flood-data/blob/main/notebooks/dataset-analysis.ipynb) notebook.
+Second, and I suspect the most exciting part, I conducted an extensive search for flood datasets across the entire NYC Open Data platform. This was done by searching for the keyword "flood" in all available datasets, which helps uncover hidden or less obvious resources that may not be immediately recognized as flood-related. The search process and its results are detailed in the [search.py](https://github.com/mebauer/nyc-flood-data/blob/main/scripts/search.py) Python script, and the analysis is documented in the [dataset-analysis](https://github.com/mebauer/nyc-flood-data/blob/main/notebooks/dataset-analysis.ipynb) notebook. The final results are stored in the [results.csv](https://github.com/mebauer/nyc-flood-data/tree/main/results) file.
+
+Here’s what the results CSV looks like:
+
+![results](figures/results.png)
+
 
 The flood datasets are categorized into three groups for easier navigation:
 
